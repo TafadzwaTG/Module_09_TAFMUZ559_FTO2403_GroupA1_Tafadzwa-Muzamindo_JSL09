@@ -24,7 +24,8 @@ main {
 
 div.top {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    
 }
 
 h1.time {
@@ -32,6 +33,9 @@ h1.time {
 }
 div#crypto {
     font-size: 1.3rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
     }
     
     div#crypto > p {
@@ -42,6 +46,7 @@ div#crypto {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    padding: 10px;
     }
     
     div#crypto-top > span {
@@ -65,8 +70,8 @@ div#crypto {
     width: 100%;
     text-align: right;
     margin: 0;
-    argin-top: -10px;
-    ont-size: 1.2rem;
+    margin-top: -10px;
+    font-size: 1.2rem;
     }
     
     p.weather-temp {
